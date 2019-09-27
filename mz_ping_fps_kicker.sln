@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mz_ping_fps_kicker_server", "mz_ping_fps_kicker\mz_ping_fps_kicker_server.csproj", "{81EEE8CE-F1DE-4CDF-BFA7-74201CF730F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A3764B33-ED0E-41DA-B9D4-FAD64A7C3545} = {A3764B33-ED0E-41DA-B9D4-FAD64A7C3545}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mz_ping_fps_kicker_client", "mz_ping_fps_kicker_client\mz_ping_fps_kicker_client.csproj", "{8D276845-BBB2-4436-9057-CD3A445D9060}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A3764B33-ED0E-41DA-B9D4-FAD64A7C3545} = {A3764B33-ED0E-41DA-B9D4-FAD64A7C3545}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mz_ping_fps_kicker_shared", "mz_ping_fps_kicker_shared\mz_ping_fps_kicker_shared.csproj", "{A3764B33-ED0E-41DA-B9D4-FAD64A7C3545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81EEE8CE-F1DE-4CDF-BFA7-74201CF730F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EEE8CE-F1DE-4CDF-BFA7-74201CF730F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EEE8CE-F1DE-4CDF-BFA7-74201CF730F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EEE8CE-F1DE-4CDF-BFA7-74201CF730F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D276845-BBB2-4436-9057-CD3A445D9060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D276845-BBB2-4436-9057-CD3A445D9060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D276845-BBB2-4436-9057-CD3A445D9060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D276845-BBB2-4436-9057-CD3A445D9060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3764B33-ED0E-41DA-B9D4-FAD64A7C3545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3764B33-ED0E-41DA-B9D4-FAD64A7C3545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3764B33-ED0E-41DA-B9D4-FAD64A7C3545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3764B33-ED0E-41DA-B9D4-FAD64A7C3545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7D681FF-174A-411E-9B1B-22426C2AF13F}
+	EndGlobalSection
+EndGlobal
